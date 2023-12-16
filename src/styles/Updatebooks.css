@@ -1,0 +1,11 @@
+.UpdateBooks{
+    border: 1px solid rgb(0, 191, 255);
+    width: 600px;
+    height: 350px;
+    transform: translate(500px);
+    padding: 20px;
+}
+.UpdateBooks input{
+margin: 10px 0px;
+height: 20px;
+}

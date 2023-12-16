@@ -1,0 +1,16 @@
+.viewitems{
+    display: flex;
+    height: 300px;
+    align-items: start;
+    justify-content: start;
+    box-shadow: 0px 0px 3px black ;
+}
+.viewitems img{
+    height: 200px;
+    width: 200px;
+}
+#dev{
+    height: 30px;
+    width: 40px;
+    transform: translate(100px);
+}

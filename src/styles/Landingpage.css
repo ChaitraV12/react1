@@ -1,0 +1,22 @@
+
+.section{
+    background-color: rgb(41,199,199);
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 550px;
+}
+.section a{
+    color: white;
+    text-decoration: none;
+}
+.section img{
+    height: 100px;
+    border-radius: 50px;
+}
+.section a:hover{
+    color: blue;
+}

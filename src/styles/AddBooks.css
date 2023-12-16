@@ -1,0 +1,11 @@
+.AddBooks{
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+    transform: translate(500px);
+    padding: 20px;
+}
+.AddBooks input{
+margin: 10px 0px;
+height: 20px;
+}
