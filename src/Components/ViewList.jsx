@@ -3,25 +3,25 @@ import "../styles/Viewitem.css"
 import axios from "axios"
 const ViewList = () => {
     let [data, setdata] = useState([])
-   useEffect(()=>{
-axios.get(" http://localhost:4000/books")
-.then((res)=>{
-    console.log(res.data);
-    setdata(res.data)
-})
-.catch((rej)=>{
-    console.log(rej.dat);
-})
-   },[])
+//    useEffect(()=>{
+// axios.get(" http://localhost:4000/books")
+// .then((res)=>{
+//     console.log(res.data);
+//     setdata(res.data)
+// })
+// .catch((rej)=>{
+//     console.log(rej.dat);
+// })
+//    },[])
 
-    // useEffect(() => {
-    //     let fetchdata = async () => {
-    //         let res = await fetch("   http://localhost:4000/books")
-    //         let result = await res.json()
-    //         setdata(result)
-    //     }
-    //     fetchdata()
-    // }, [data])
+    useEffect(() => {
+        let fetchdata = async () => {
+            let res = await fetch("   http://localhost:4000/books")
+            let result = await res.json()
+            setdata(result)
+        }
+        fetchdata()
+    }, [data])
     let deletedata = (id) => {
         fetch(`http://localhost:4000/books/${id}`, {
             method: "DELETE"
