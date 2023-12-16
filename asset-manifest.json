@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChaitraV12/react1.git/static/css/main.f886d451.css",
+    "main.js": "/ChaitraV12/react1.git/static/js/main.8a40db14.js",
+    "static/js/787.917857b7.chunk.js": "/ChaitraV12/react1.git/static/js/787.917857b7.chunk.js",
+    "index.html": "/ChaitraV12/react1.git/index.html",
+    "main.f886d451.css.map": "/ChaitraV12/react1.git/static/css/main.f886d451.css.map",
+    "main.8a40db14.js.map": "/ChaitraV12/react1.git/static/js/main.8a40db14.js.map",
+    "787.917857b7.chunk.js.map": "/ChaitraV12/react1.git/static/js/787.917857b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f886d451.css",
+    "static/js/main.8a40db14.js"
+  ]
+}
